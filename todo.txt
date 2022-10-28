@@ -1,0 +1,10 @@
+Set up react router
+Show nested routes to the pages
+Pull API
+Render the pulled API on a page called users
+Show pagination that should include prev & next button
+Show disabled state
+Show API loading states
+Show accessibility
+Error boundary 
+Show a 404error page

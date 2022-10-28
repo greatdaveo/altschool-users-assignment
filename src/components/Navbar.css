@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.link {
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+.link:hover {
+    background-color: gold;
+    color: black;
+}

@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+}
+
+ul.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul.pagination-container li {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+ul.pagination-container  li:hover {
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+
+ul.pagination-container li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.pagination-container li a:hover {
+    color: black;
+}

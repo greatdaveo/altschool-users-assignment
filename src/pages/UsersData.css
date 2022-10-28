@@ -1,0 +1,34 @@
+/* .isLoading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+} */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.info-container {
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px #aaaaaa;
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+li.info-container {
+    list-style: none;
+}
+
+.info-container h1 {
+    width: 5px;
+}
+
+.info-container img {
+    border-radius: 50px;
+    display: flex;
+    align-self: center;
+}
