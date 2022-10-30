@@ -32,7 +32,7 @@ const Main = () => {
   const currentPosts = users.slice(indexOfFirstPost, indexOfLastPost)
 
   // To change the page data
-  const handlePagination = (pageNumber) => setCurrentPageUsers(pageNumber)
+  const handlePagination = pageNumber => setCurrentPageUsers(pageNumber)
   
   return (
     <div>
