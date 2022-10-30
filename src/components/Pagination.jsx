@@ -1,4 +1,4 @@
-import "./Pagination.css"
+import "./Pagination.css";
 
 export default function Pagination({ userPerPage, totalUsers, paginate }) {
   const pageNumber = [];
@@ -12,8 +12,8 @@ export default function Pagination({ userPerPage, totalUsers, paginate }) {
       <ul className="pagination-container">
         {pageNumber.map((number) => (
           <li key={number}>
-            <a href="!#" onClick={() => paginate(number)}>
-                {number}
+            <a href="users" onClick={() => paginate(number)}>
+              {number}
             </a>
           </li>
         ))}
